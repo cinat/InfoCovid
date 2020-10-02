@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Death Toll</title>
+</head>
+    <body>
+        <script>
+            getData();
+            async function getData(){
+                const response = await fetch('covid19india.csv');
+                const data = await response.text();
+                console.log(data);
+            }
+        </script>
+    </body>
+</html>
