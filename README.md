@@ -1,6 +1,7 @@
 PROJECT NAME : InfoCovid
 
-An application used to fetch data from API related to COVID according to user preference, built with React, JavaScript, and CSS.
+A web application used to fetch data from API related to COVID according to user preference.
+Built with React, JavaScript, and CSS.
 
 
 Installation and Setup Instructions
